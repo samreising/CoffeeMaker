@@ -48,7 +48,7 @@ public class CoffeeMaker {
         if(beans < 2.40){
             throw new NotEnoughBeansException(beans);
         }
-        if(beans>2.60){
+        if(beans > 2.60){
             throw new TooManyBeansException(beans);
         }
         if(water < 14.75){
